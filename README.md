@@ -5,7 +5,7 @@
 
 A robust, Object-Oriented Minesweeper implementation in Python. This project features a fully playable CLI game and an intelligent agent (Bot) that solves the board using deterministic logic and heuristic risk analysis.
 
-## 🧠 Technical Features & Logic
+##  Technical Features & Logic
 
 This project implements several advanced programming and algorithmic techniques:
 
