@@ -603,6 +603,12 @@ class Bot:
         Resuelto = 0
         
         while Resuelto == 0:
+            Resuelto = Juego.Comprobar_victoria()
+
+            if Resuelto == 1:
+                print("Has ganado")
+                return 2
+
             self.obtener_mapa(Juego.Tablero)
             Juego.Vista_tablero(0)
             Bordes = self.Guardar_bordes()
